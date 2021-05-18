@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: existing-app-1
+  description: This is used to try to manually add an existing app description
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: service-discovery
+  tags:
+    - java
+    - example-app
+  links:
+    - url: https://url.myapp.com
+      title: URL to my app
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: team-4
+  system: system-1
