@@ -15,7 +15,7 @@ metadata:
       title: URL to my app
       icon: dashboard
 spec:
-  type: website
+  type: service
   lifecycle: production
-  owner: team-4
+  owner: team-a
   system: system-1
