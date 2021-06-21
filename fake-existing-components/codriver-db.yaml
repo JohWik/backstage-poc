@@ -1,0 +1,10 @@
+# Example:
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: codriver-db
+  description: Database for the system
+spec:
+  type: database
+  lifecycle: production
+  owner: team-d
