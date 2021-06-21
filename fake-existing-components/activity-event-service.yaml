@@ -3,7 +3,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: activity-event-service
-  namespace: internal-systems
   description: activity-event-service
   tags:
     - java
