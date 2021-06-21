@@ -7,10 +7,10 @@ metadata:
   description: activity-event-service
   tags:
     - java
-    links:
-      - url: https://example.com
-        title: URL to my app
-        icon: dashboard
+  links:
+    - url: https://example.com
+      title: URL to my app
+      icon: dashboard
 spec:
   type: service
   lifecycle: production
