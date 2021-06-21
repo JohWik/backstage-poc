@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: worktime-contracts-sweden
+  description: Controls worktime-contracts for swedish drivers
+spec:
+  owner: team-b
+  domain: worktime-contracts

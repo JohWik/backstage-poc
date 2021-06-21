@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: worktime-contracts-finland
+  description: Controls worktime-contracts for finnish drivers
+spec:
+  owner: team-a
+  domain: worktime-contracts

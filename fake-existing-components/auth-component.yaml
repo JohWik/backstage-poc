@@ -1,0 +1,15 @@
+# Example:
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: server-backend-weboffice-auth
+  namespace: internal-systems
+  description: server-backend-weboffice-auth handles auth of a logged in user
+spec:
+  type: library
+  lifecycle: production
+  owner: team-d
+  providesApis:
+    - customers
+    - users
+    - vehicles

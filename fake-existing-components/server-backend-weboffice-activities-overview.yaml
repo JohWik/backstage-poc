@@ -1,0 +1,13 @@
+# Example:
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: server-backend-actvities-overview
+  namespace: external-systems
+  description: activities-overview
+spec:
+  type: service
+  lifecycle: production
+  owner: team-d
+  providesApis:
+    - activities

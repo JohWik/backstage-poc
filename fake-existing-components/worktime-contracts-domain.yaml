@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: worktime-contracts
+  description: Everything related to worktime-contracts
+  links:
+    - url: http://example.com/domain/worktime-contracts/
+      title: Domain Readme
+    - url: http://example.com/domains/worktime-contracts/dashboard
+      title: Domain Metrics Dashboard
+      icon: dashboard
+spec:
+  owner: team-a

@@ -1,0 +1,15 @@
+# Example:
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: core-entity-service
+  namespace: internal-systems
+  description: core-entity-service handles customers, users, vehicles information
+spec:
+  type: service
+  lifecycle: production
+  owner: team-d
+  providesApis:
+    - customers
+    - users
+    - vehicles
