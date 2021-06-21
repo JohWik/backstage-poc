@@ -3,9 +3,5 @@ kind: Domain
 metadata:
   name: worktime-contracts
   description: Everything related to worktime-contracts
-  links:
-    - url: https://example.com
-      title: URL to my app
-      icon: dashboard
 spec:
   owner: team-a
