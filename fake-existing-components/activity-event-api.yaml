@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: activity-event-api
+  description: Activity event API
+spec:
+  type: REST
+  lifecycle: production
+  owner: team-c
