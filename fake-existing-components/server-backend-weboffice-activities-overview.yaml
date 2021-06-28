@@ -9,4 +9,11 @@ spec:
   lifecycle: production
   owner: team-d
   providesApis:
-    - activities
+    - external/activities
+    - external/users
+    - external/vehicles
+  consumesApis:
+    - activity-event-api
+    - customer-api
+    - user-api
+    - vehicle-api
