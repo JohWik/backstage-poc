@@ -1,0 +1,17 @@
+# Example:
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: weboffice-activities-overview
+  description: UI for activities-overview
+  tags:
+    - angular
+spec:
+  type: website
+  lifecycle: production
+  owner: team-d
+  system: activities-overview-system
+  consumesApis:
+    - external/activity-api
+    - external/user-api
+    - external/vehicle-api

@@ -4,10 +4,13 @@ kind: Component
 metadata:
   name: core-entity-service
   description: core-entity-service handles customers, users, vehicles information
+  tags:
+    - java
 spec:
   type: service
   lifecycle: production
   owner: team-d
+  system: activities-overview-system
   providesApis:
     - customer-api
     - user-api

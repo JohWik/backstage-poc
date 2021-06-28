@@ -6,6 +6,7 @@ metadata:
   description: activity-event-service
   tags:
     - java
+    - kafka
   links:
     - url: https://example.com
       title: URL to my app
@@ -14,5 +15,6 @@ spec:
   type: service
   lifecycle: production
   owner: team-d
+  system: activities-overview-system
   providesApis:
     - activity-event-api
