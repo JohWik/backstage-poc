@@ -8,6 +8,7 @@ spec:
   type: service
   lifecycle: production
   owner: team-d
+  system: activities-overview-system
   providesApis:
     - external/activities
     - external/users
