@@ -6,3 +6,4 @@ metadata:
 spec:
   owner: team-a
   domain: worktime-contracts
+  definition: |
