@@ -7,3 +7,4 @@ spec:
   type: REST
   lifecycle: production
   owner: team-c
+  definition: |
