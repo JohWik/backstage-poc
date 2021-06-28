@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: user-api
+  namespace: external
+  description: User API
+spec:
+  type: REST
+  lifecycle: production
+  owner: team-a
+  definition: |
+    Testing
