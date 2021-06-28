@@ -10,9 +10,9 @@ spec:
   owner: team-d
   system: activities-overview-system
   providesApis:
-    - external/activities
-    - external/users
-    - external/vehicles
+    - external/activity-api
+    - external/user-api
+    - external/vehicle-api
   consumesApis:
     - activity-event-api
     - customer-api

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: vehicle-api
+  namespace: external
+  description: Vehicle API
+spec:
+  type: REST
+  lifecycle: production
+  owner: team-a
+  definition: |
+    Testing
