@@ -15,4 +15,4 @@ spec:
   lifecycle: production
   owner: team-d
   providesApis:
-    - activity-events
+    - activity-event-api
