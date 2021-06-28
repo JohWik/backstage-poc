@@ -11,6 +11,7 @@ spec:
   lifecycle: production
   owner: team-d
   system: activities-overview-system
+  dependsOn: server-backend-actvities-overview
   consumesApis:
     - external/activity-api
     - external/user-api

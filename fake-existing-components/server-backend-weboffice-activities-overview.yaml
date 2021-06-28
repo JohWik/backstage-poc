@@ -9,6 +9,7 @@ spec:
   lifecycle: production
   owner: team-d
   system: activities-overview-system
+  dependsOn: server-backend-weboffice-auth
   providesApis:
     - external/activity-api
     - external/user-api
