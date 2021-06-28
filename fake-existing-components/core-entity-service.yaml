@@ -9,6 +9,6 @@ spec:
   lifecycle: production
   owner: team-d
   providesApis:
-    - customers
-    - users
-    - vehicles
+    - customer-api
+    - user-api
+    - vehicle-api

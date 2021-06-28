@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: customer-api
+  description: Customer API
+spec:
+  type: REST
+  lifecycle: production
+  owner: team-a
+  definition: |
+    Testing
